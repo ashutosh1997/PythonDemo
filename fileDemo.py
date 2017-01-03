@@ -1,0 +1,10 @@
+fw = open('sample.txt', 'w')
+fw.write('My name is Ashutosh Kumar\n')
+fw.write('I like programming\n')
+fw.write('I also like painting and playing cricket\n')
+fw.close()
+
+fr = open('sample.txt', 'r')
+x = fr.read()
+print(x)
+fr.close()
